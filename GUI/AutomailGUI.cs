@@ -52,7 +52,7 @@ namespace GUI
                 try
                 {
                     // Phút thứ 59, 04, 07, 17, 27
-                    if ( (Convert.ToInt32(DateTime.Now.ToString("mm")) == 59) || (Convert.ToInt32(DateTime.Now.ToString("mm")) == 4) || (Convert.ToInt32(DateTime.Now.ToString("mm")) == 7) || (Convert.ToInt32(DateTime.Now.ToString("mm")) == 17) || (Convert.ToInt32(DateTime.Now.ToString("mm")) == 27) )
+                    if ( (Convert.ToInt32(DateTime.Now.ToString("mm")) == 58) || (Convert.ToInt32(DateTime.Now.ToString("mm")) == 4) || (Convert.ToInt32(DateTime.Now.ToString("mm")) == 7) || (Convert.ToInt32(DateTime.Now.ToString("mm")) == 17) || (Convert.ToInt32(DateTime.Now.ToString("mm")) == 27) )
                     {
                         if (checkAutomailLoad() == false)
                         {
@@ -80,7 +80,7 @@ namespace GUI
                     Console.WriteLine("Error");
                 }
 
-                Thread.Sleep(60000);
+                Thread.Sleep(6000);
 
             }            
 
