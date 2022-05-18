@@ -80,7 +80,7 @@ namespace GUI
                     Console.WriteLine("Error");
                 }
 
-                Thread.Sleep(30000);
+                Thread.Sleep(10000);
 
             }            
 
